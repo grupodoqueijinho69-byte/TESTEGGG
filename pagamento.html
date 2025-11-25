@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Pagamento</title>
+</head>
+<body style="font-family: Arial;">
+
+    <h1>Pagamento</h1>
+    <p>Preencha os dados para concluir a compra:</p>
+
+    <form action="sucesso.html" method="GET">
+        <label>Nome no Cartão:</label><br>
+        <input type="text" required><br><br>
+
+        <label>Número do Cartão:</label><br>
+        <input type="text" maxlength="16" required><br><br>
+
+        <label>Validade:</label><br>
+        <input type="text" placeholder="MM/AA" required><br><br>
+
+        <label>CVV:</label><br>
+        <input type="text" maxlength="3" required><br><br>
+
+        <button type="submit">Finalizar Pagamento</button>
+    </form>
+
+</body>
+</html>
